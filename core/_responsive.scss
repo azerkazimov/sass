@@ -4,27 +4,14 @@
   }
 }
 
-@media (min-width: 993px) {
-  .burger-menu {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 992px) {
   .container {
     max-width: 960px !important;
   }
 
-  .burger-menu {
-    display: block;
-    max-width: 100%;
-  }
-
-  .header-nav-item,
   .d-none {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -32,17 +19,11 @@
     max-width: 720px !important;
   }
 
-  .footer {
-    text-align: center;
-  }
+
 }
 
 @media screen and (max-width: 576px) {
   .container {
     max-width: 540px !important;
-  }
-
-  .btn {
-    flex-grow: 1;
   }
 }
