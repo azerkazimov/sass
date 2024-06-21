@@ -9,6 +9,19 @@
     max-width: 960px !important;
   }
 
+  .tic-tac-toe {
+    .boxes {
+
+      height: 100px;
+      width: 100px;
+
+
+      svg {
+        font-size: 36 !important;
+      }
+    }
+  }
+
   .d-none {
     display: none;
   }
